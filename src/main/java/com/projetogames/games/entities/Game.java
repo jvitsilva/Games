@@ -25,7 +25,7 @@ public class Game {
 	private Double score;
 	private String imgUrl;
 	
-	@Column(columnDefinition = "TEXT")
+	@Column(columnDefinition = "TEXT")// texto acima de 255 caracteres
 	private String shortDescription;
 
 	@Column(columnDefinition = "TEXT")
